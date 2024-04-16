@@ -1,5 +1,6 @@
 {
-    "name": "react-portfolio",
+    "homepage": "https://prathmesh-27.github.io/portfolio-v1",
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -22,7 +23,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
