@@ -1,0 +1,124 @@
+.nav-link {
+    position: relative;
+    padding-left: 20px;
+
+}
+
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: var(--text-color-3);
+    transition: background-color 0.3s ease;
+
+}
+
+.nav-link.active::before {
+    background-color: var(--text-color-5);
+    color: var(--text-color) !important;
+
+    /* Highlight color when active */
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+    border-radius: 0 !important;
+    color: var(--text-color) !important;
+    background-color: transparent !important;
+    color: inherit;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+
+    background-color: transparent !important;
+    border-color: transparent !important;
+
+}
+
+.nav.nav-tabs .nav-link.active {
+    color: var(--primary-color) !important;
+    background-color: var(--overlay-color-2) !important;
+
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.tab-content>.active {
+    display: block;
+    padding-left: 0px 50px;
+    margin-left: 1rem;
+}
+
+.services ul li {
+    text-align: center;
+}
+
+.services ul li p {
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .container.d-flex {
+        flex-direction: column;
+    }
+
+    .nav.nav-tabs {
+        width: 100% !important;
+        flex-direction: row !important;
+    }
+
+    .nav.nav-tabs .nav-item {
+        display: flex;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .nav.nav-tabs .nav-link {
+        border-left: none;
+        /* Remove left border for small screens */
+        border-bottom: none;
+        /* Remove bottom border for small screens */
+        flex: 1;
+        /* Expand to fill available space */
+        justify-content: center;
+        /* Center align text */
+    }
+
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        /* Width of the highlight */
+        height: 3px;
+        background-color: var(--text-color-3);
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-link.active::before {
+        background-color: #ffcc00;
+        color: black !important;
+        /* Highlight color when active */
+    }
+
+    .tab-content {
+        width: 100%;
+        margin: 2rem 0;
+    }
+}

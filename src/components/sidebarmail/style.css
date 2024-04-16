@@ -1,0 +1,88 @@
+.stick_email {
+    top: 60%;
+    left: 98%;
+    width: 20px;
+    height: 200px;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.stick_email ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stick_email ul li a {
+    text-decoration: none;
+}
+
+.stick_email svg {
+    width: 1.3em;
+    height: 1.3em;
+    fill: var(--text-color)
+}
+
+.stick_email p {
+    top: 200px;
+    left: -26px;
+    width: 68px;
+    height: 20px;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    position: relative;
+    transform: rotate(90deg);
+}
+
+#mail {
+    display: block;
+    top: -100px;
+    left: -24px;
+    width: 68px;
+    height: 20px;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    position: relative;
+    transform: rotate(90deg);
+    transition: 1s ease;
+}
+
+#mail:hover {
+    color: var(--text-color-3);
+}
+
+
+.stick_email ul li {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+.stick_email p:before {
+    top: 9px;
+    right: 95px;
+    width: 40px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: var(--text-color);
+}
+
+@media only screen and (max-width: 991px) {
+
+    .stick_email,
+    #mail,
+    .stick_email p,
+    .stick_email ul {
+        display: none;
+    }
+}

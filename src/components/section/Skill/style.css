@@ -1,0 +1,97 @@
+/* for Skill section */
+
+#skills-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1em;
+    grid-template-rows: repeat(8, 1fr);
+    padding: 0 1em;
+    border-radius: 10% 0px;
+}
+
+#card1,
+#card2,
+#card3,
+#card4 {
+    background-color: var(--primary-color);
+    border-radius: 0px 10%;
+}
+
+#card1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 4;
+}
+
+#card2 {
+    grid-column: 4 / span 4;
+    grid-row: 5 / span 4;
+}
+
+#card3 {
+    grid-column: 7 / span 4;
+    grid-row: 1 / span 4;
+}
+
+#card4 {
+    grid-column: 10 / span 6;
+    grid-row: 5 / span 4;
+}
+
+.grid-item {
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.skills {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+
+}
+
+.skills li {
+    margin-left: 5px;
+    /* Adjust as needed */
+}
+
+.skills li::before {
+    content: "⊳";
+    /* Custom bullet */
+    color: var(--text-color);
+    /* Bullet color */
+    display: inline-block;
+    width: 1em;
+    margin-left: 1em;
+}
+
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    #skills-container {
+        grid-template-columns: 1fr;
+        /* Make the grid one column */
+        grid-template-rows: auto;
+        /* Adjust row size to content */
+        grid-gap: 2em;
+        /* Increase gap for readability */
+    }
+
+    #card1,
+    #card2,
+    #card3,
+    #card4 {
+        grid-column: 1;
+        /* Span across the only column */
+        grid-row: auto;
+        /* Automatic row sizing */
+    }
+
+    /* Adjust card specific settings if needed */
+}

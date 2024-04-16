@@ -1,0 +1,11 @@
+ul.Hobbies-list {
+    width: 370px;
+    font-size: small;
+    list-style: inherit;
+}
+
+span a {
+    text-decoration: none;
+    color: var(--text-color-3);
+    font-weight: 600;
+}
