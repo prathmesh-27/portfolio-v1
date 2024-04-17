@@ -21,7 +21,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
       unmountOnExit
     >
       <Routes location={location}>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/portfolio-v1" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />

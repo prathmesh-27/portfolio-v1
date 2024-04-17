@@ -128,8 +128,12 @@
         margin-bottom: 15px;
     }
 
-    .project-tech-list li,
     .project-overline,
+    .project-tech-list li {
+        color: black;
+    }
+
+
     .project-title,
     .project-description {
         color: antiquewhite;
