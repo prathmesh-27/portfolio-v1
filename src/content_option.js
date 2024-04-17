@@ -1,4 +1,4 @@
-const logopath = "assests/PV.png";
+const logopath = "portfolio-v1/assests/PV.png";
 const meta = {
     title: "Prathmesh Vairale",
     description: "I’m Prathmesh Vairale Full stack devloper _ AIML Enthusiast,currently persuing B-tech",
@@ -13,7 +13,7 @@ const introdata = {
     },
     description: `I am a B.Tech (CSE) student with a goal-driven creative mindset and a passion for AI and ML. <br><br>Currently, I am honing my skills while pursuing my degree.<br><br>Off-screen, I enjoy sketching my thoughts and ideas <a href="https://www.pinterest.com/prathmeshvairale" target="_blank"><span class="blue-bold">here</span></a><br><br>`,
 
-    your_img_url: "assests/m.jpg",
+    your_img_url: "portfolio-v1/assests/m.jpg",
 };
 
 const dataabout = {
