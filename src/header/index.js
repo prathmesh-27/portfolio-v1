@@ -50,8 +50,8 @@ const Headermain = () => {
               </div>
             </div>
           </div>
-          <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
+          <div className="menu_footer d-flex flex-column flex-md-row align-items-md-center position-absolute p-3">
+            <div className="d-flex justify-content-between">
               <a href={socialprofils.facebook}>Facebook</a>
               <a href={socialprofils.github}>Github</a>
               <a href={socialprofils.twitter}>Twitter</a>

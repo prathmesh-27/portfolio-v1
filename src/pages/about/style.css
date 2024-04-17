@@ -60,7 +60,6 @@
 
 .tab-content>.active {
     display: block;
-    padding-left: 0px 50px;
     margin-left: 1rem;
 }
 
@@ -72,14 +71,13 @@
     padding: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .container.d-flex {
         flex-direction: column;
     }
 
     .nav.nav-tabs {
         width: 100% !important;
-        flex-direction: row !important;
     }
 
     .nav.nav-tabs .nav-item {
@@ -89,13 +87,9 @@
 
     .nav.nav-tabs .nav-link {
         border-left: none;
-        /* Remove left border for small screens */
         border-bottom: none;
-        /* Remove bottom border for small screens */
         flex: 1;
-        /* Expand to fill available space */
         justify-content: center;
-        /* Center align text */
     }
 
 
@@ -111,14 +105,13 @@
         transition: background-color 0.3s ease;
     }
 
-    .nav-link.active::before {
-        background-color: #ffcc00;
-        color: black !important;
-        /* Highlight color when active */
-    }
 
     .tab-content {
         width: 100%;
         margin: 2rem 0;
+    }
+
+    .tab-content>.active {
+        margin-left: 0;
     }
 }
