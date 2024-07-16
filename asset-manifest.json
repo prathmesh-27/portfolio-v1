@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-v1/static/css/main.b6ee8d1c.css",
-    "main.js": "/portfolio-v1/static/js/main.c2d0825f.js",
+    "main.js": "/portfolio-v1/static/js/main.c36962df.js",
     "static/media/CineSense.png": "/portfolio-v1/static/media/CineSense.9944594683ef5469a6e1.png",
     "static/media/Flight-Ticket-Booking.png": "/portfolio-v1/static/media/Flight-Ticket-Booking.271b2282644cc0136dde.png",
     "static/media/cv-builder-certificate.png": "/portfolio-v1/static/media/cv-builder-certificate.e51a67877f3966a68c9d.png",
     "static/media/responsive-web-design.png": "/portfolio-v1/static/media/responsive-web-design.8136b650bb22800b312b.png",
     "static/media/introduction-to-deep-learning.png": "/portfolio-v1/static/media/introduction-to-deep-learning.7ddf828a1ae3e6808ac4.png",
+    "static/media/Prathmesh_cv.pdf": "/portfolio-v1/static/media/Prathmesh_cv.cedbcba993dfcfa98784.pdf",
     "static/media/my.jpg": "/portfolio-v1/static/media/my.8f973af901760eda2a93.jpg",
     "static/media/my_logo.png": "/portfolio-v1/static/media/my_logo.46e71d9b454349effdef.png",
     "index.html": "/portfolio-v1/index.html"
   },
   "entrypoints": [
     "static/css/main.b6ee8d1c.css",
-    "static/js/main.c2d0825f.js"
+    "static/js/main.c36962df.js"
   ]
 }
