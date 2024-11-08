@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v1/static/css/main.b6ee8d1c.css",
-    "main.js": "/portfolio-v1/static/js/main.c36962df.js",
+    "main.css": "/portfolio-v1/static/css/main.0dce1826.css",
+    "main.js": "/portfolio-v1/static/js/main.3136d81b.js",
     "static/media/CineSense.png": "/portfolio-v1/static/media/CineSense.9944594683ef5469a6e1.png",
     "static/media/Flight-Ticket-Booking.png": "/portfolio-v1/static/media/Flight-Ticket-Booking.271b2282644cc0136dde.png",
     "static/media/cv-builder-certificate.png": "/portfolio-v1/static/media/cv-builder-certificate.e51a67877f3966a68c9d.png",
@@ -13,7 +13,7 @@
     "index.html": "/portfolio-v1/index.html"
   },
   "entrypoints": [
-    "static/css/main.b6ee8d1c.css",
-    "static/js/main.c36962df.js"
+    "static/css/main.0dce1826.css",
+    "static/js/main.3136d81b.js"
   ]
 }
