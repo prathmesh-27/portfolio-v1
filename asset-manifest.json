@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-v1/static/css/main.05348619.css",
-    "main.js": "/portfolio-v1/static/js/main.510a29a4.js",
+    "main.js": "/portfolio-v1/static/js/main.3583bec6.js",
     "static/media/CineSense.png": "/portfolio-v1/static/media/CineSense.9944594683ef5469a6e1.png",
     "static/media/my.jpg": "/portfolio-v1/static/media/my.fc973203c2b18d9d55a1.jpg",
     "static/media/Flight-Ticket-Booking.png": "/portfolio-v1/static/media/Flight-Ticket-Booking.271b2282644cc0136dde.png",
@@ -10,7 +10,7 @@
     "static/media/SurveilAI.png": "/portfolio-v1/static/media/SurveilAI.25ef58b91c5dc3aad969.png",
     "static/media/aws.png": "/portfolio-v1/static/media/aws.bf80a50e1649e8a16c57.png",
     "static/media/responsive-web-design.png": "/portfolio-v1/static/media/responsive-web-design.8136b650bb22800b312b.png",
-    "static/media/Prathmesh_cv.pdf": "/portfolio-v1/static/media/Prathmesh_cv.51fbee49384836a18ad9.pdf",
+    "static/media/Prathmesh_cv.pdf": "/portfolio-v1/static/media/Prathmesh_cv.b8e0405cff1a8f40c40a.pdf",
     "static/media/header_bg.png": "/portfolio-v1/static/media/header_bg.a10a5c736d3482dcb8ad.png",
     "static/media/experience.png": "/portfolio-v1/static/media/experience.e3fda2710d3b043a3f29.png",
     "static/media/about.png": "/portfolio-v1/static/media/about.f9222bf856deab70ac50.png",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.05348619.css",
-    "static/js/main.510a29a4.js"
+    "static/js/main.3583bec6.js"
   ]
 }
